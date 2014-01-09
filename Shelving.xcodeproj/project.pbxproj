@@ -15,6 +15,11 @@
 		BC2A1A2A14563C050096E9CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A1A2914563C050096E9CF /* AppDelegate.m */; };
 		BC2A1A2D14563C050096E9CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A1A2C14563C050096E9CF /* ViewController.m */; };
 		BC2A1A3014563C050096E9CF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2A1A2E14563C050096E9CF /* ViewController.xib */; };
+		BC62E06A146EFF0C00540DF6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E069146EFF0C00540DF6 /* Book.m */; };
+		BC62E06E1470AA7E00540DF6 /* BlueCover.png in Resources */ = {isa = PBXBuildFile; fileRef = BC62E06B1470AA7D00540DF6 /* BlueCover.png */; };
+		BC62E06F1470AA7E00540DF6 /* GreenCover.png in Resources */ = {isa = PBXBuildFile; fileRef = BC62E06C1470AA7D00540DF6 /* GreenCover.png */; };
+		BC62E0701470AA7E00540DF6 /* RedCover.png in Resources */ = {isa = PBXBuildFile; fileRef = BC62E06D1470AA7D00540DF6 /* RedCover.png */; };
+		BC62E0721470B3B600540DF6 /* Bookshelf.png in Resources */ = {isa = PBXBuildFile; fileRef = BC62E0711470B3B600540DF6 /* Bookshelf.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,21 @@
 		BC2A1A1914563C050096E9CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BC2A1A1B14563C050096E9CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC2A1A1D14563C050096E9CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BC2A1A2114563C050096E9CF /* Shelving-Info.plist */ = {isa = PBXFileReference; path = "Shelving-Info.plist"; sourceTree = "<group>"; };
+		BC2A1A2114563C050096E9CF /* Shelving-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shelving-Info.plist"; sourceTree = "<group>"; };
 		BC2A1A2314563C050096E9CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC2A1A2514563C050096E9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC2A1A2714563C050096E9CF /* Shelving-Prefix.pch */ = {isa = PBXFileReference; path = "Shelving-Prefix.pch"; sourceTree = "<group>"; };
-		BC2A1A2814563C050096E9CF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC2A1A2714563C050096E9CF /* Shelving-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shelving-Prefix.pch"; sourceTree = "<group>"; };
+		BC2A1A2814563C050096E9CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC2A1A2914563C050096E9CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC2A1A2B14563C050096E9CF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		BC2A1A2B14563C050096E9CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC2A1A2C14563C050096E9CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC2A1A2F14563C050096E9CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BC62E068146EFF0C00540DF6 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		BC62E069146EFF0C00540DF6 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		BC62E06B1470AA7D00540DF6 /* BlueCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueCover.png; sourceTree = "<group>"; };
+		BC62E06C1470AA7D00540DF6 /* GreenCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenCover.png; sourceTree = "<group>"; };
+		BC62E06D1470AA7D00540DF6 /* RedCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCover.png; sourceTree = "<group>"; };
+		BC62E0711470B3B600540DF6 /* Bookshelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookshelf.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,8 @@
 				BC2A1A2B14563C050096E9CF /* ViewController.h */,
 				BC2A1A2C14563C050096E9CF /* ViewController.m */,
 				BC2A1A2E14563C050096E9CF /* ViewController.xib */,
+				BC62E068146EFF0C00540DF6 /* Book.h */,
+				BC62E069146EFF0C00540DF6 /* Book.m */,
 				BC2A1A2014563C050096E9CF /* Supporting Files */,
 			);
 			path = Shelving;
@@ -90,6 +103,10 @@
 		BC2A1A2014563C050096E9CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC62E0711470B3B600540DF6 /* Bookshelf.png */,
+				BC62E06B1470AA7D00540DF6 /* BlueCover.png */,
+				BC62E06C1470AA7D00540DF6 /* GreenCover.png */,
+				BC62E06D1470AA7D00540DF6 /* RedCover.png */,
 				BC2A1A2114563C050096E9CF /* Shelving-Info.plist */,
 				BC2A1A2214563C050096E9CF /* InfoPlist.strings */,
 				BC2A1A2514563C050096E9CF /* main.m */,
@@ -150,6 +167,10 @@
 			files = (
 				BC2A1A2414563C050096E9CF /* InfoPlist.strings in Resources */,
 				BC2A1A3014563C050096E9CF /* ViewController.xib in Resources */,
+				BC62E06E1470AA7E00540DF6 /* BlueCover.png in Resources */,
+				BC62E06F1470AA7E00540DF6 /* GreenCover.png in Resources */,
+				BC62E0701470AA7E00540DF6 /* RedCover.png in Resources */,
+				BC62E0721470B3B600540DF6 /* Bookshelf.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +184,7 @@
 				BC2A1A2614563C050096E9CF /* main.m in Sources */,
 				BC2A1A2A14563C050096E9CF /* AppDelegate.m in Sources */,
 				BC2A1A2D14563C050096E9CF /* ViewController.m in Sources */,
+				BC62E06A146EFF0C00540DF6 /* Book.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +298,7 @@
 				BC2A1A3514563C050096E9CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
